@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 .navbar, .home-callout {
-    // Gradient provided by @_igash at uigradients.com
+    // Gradient provided by @_ighash at uigradients.com
     background: #1F1C2C;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -33,6 +33,25 @@ h1, h2, h3 {
 .navbar {
     border: none;
 }
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    opacity: 0.75;
+}
+
 
 .home-callout {
     margin-top: -20px;
